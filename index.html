@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+
+    <!-- SVG By FontAwesome -->
+    <link rel="shortcut icon" href="images/bullseye.svg"></link>
+
+    <meta name="title" content="點擊標靶遊戲|增強你的滑鼠掌控度與反應力"/>
+    <meta name=”description” content="透過本遊戲提升你對滑鼠的掌控度" />
+    <meta name="Keywords" content="點擊標靶遊戲,點擊遊戲,訓練滑鼠掌控,訓練反應力"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>點擊標靶遊戲|增強你的滑鼠掌控度與反應力</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v13.0" nonce="YmM5YheC"></script></head>
+<body>
+    <main>
+        <h1>點擊標靶遊戲</h1>
+        <h3>遊戲說明:按下開始遊戲後遊戲範圍內會出現圓圈<br>消失前點擊成功獲得1分，失敗不扣分</h3>
+        <div class="speed">
+            <div>
+                遊戲速度
+                <select id="userSpeed">
+                    <option value="1000">1000</option>
+                    <option value="500">500</option>
+                    <option value="300">300</option>
+                </select>毫秒
+            </div>
+            <div>
+                遊戲時間
+                <select id="userTime">
+                    <option value="30">30</option>
+                    <option value="60">60</option>
+                    <option value="120">120</option>
+                    <option value="10">10</option>
+                </select>
+                秒
+            </div>
+            <div>
+                圓圈尺寸
+                <select id="userRound">
+                    <option value="25">25</option>
+                    <option value="40">40</option>
+                </select>
+                像素
+            </div>
+        </div>
+        <h4 id="gameTime">遊戲剩餘時間:未開始</h4>
+        <div class="fraction">已獲得分數:<span id="s1">0</span>分，漏掉了<span id="s2">0</span>個</div>
+        <ul class="game" id="game">
+            <li class="game_li" id="click1"></li>
+            <li class="game_li" id="click2"></li>
+            <li class="game_li" id="click3"></li>
+            <li class="game_li" id="click4"></li>
+            <li class="game_li" id="click5"></li>
+            <div class="view" id="view">
+
+            </div>
+        </ul>
+        <div class="btn">
+            <button id="gameBtn" title="GO!">開始遊戲</button>
+            <button id="copyView" title="複製起來分享給別人!">複製戰績</button>
+        </div>
+
+        <div class="fb_msg">
+            <div class="fb-comments" data-href="https://aa9630814.github.io" data-width="380" data-numposts="5"></div>
+        </div>
+    </main>
+    <script src="js/javascript.js"></script>
+    <footer>
+        <!-- <p>建議使用桌上型電腦滑鼠設備進行本遊戲，可以增強對滑鼠的掌控度</p>
+        <p>遊戲範圍為400x400，若為手機遊玩前請先確定設備解析度是否符合大小</p>
+        <p>另一款遊戲-猜數字:<a href="https://ayvc0420.github.io/guessNumber/" target="new" >點我前往</a></p>
+        <p>本網站使用JavaScript ES6技術不支援IE瀏覽器<br>Copyright &copy; ayvc0420</p> -->
+        <p>Copyright &copy; ayvc0420</p>
+    </footer>
+</body>
+</html>
