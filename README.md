@@ -1,4 +1,4 @@
-網址: [點我前往遊戲](https://ayvc0420.github.io/targetGame/)
+網址: [點我前往遊戲](https://aa9630814.github.io/)
 
 遊戲名稱 : 點擊標靶
 
